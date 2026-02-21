@@ -1,0 +1,111 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\Compact]
+"SubCommands"=""
+"Position"="Middle"
+
+[HKEY_CLASSES_ROOT\*\shell\Compact\shell]
+
+[HKEY_CLASSES_ROOT\*\shell\Compact\shell\1]
+"MUIVerb"="XPRESS4K"
+
+[HKEY_CLASSES_ROOT\*\shell\Compact\shell\2]
+"MUIVerb"="XPRESS8K"
+
+[HKEY_CLASSES_ROOT\*\shell\Compact\shell\3]
+"MUIVerb"="XPRESS16K"
+
+[HKEY_CLASSES_ROOT\*\shell\Compact\shell\4]
+"MUIVerb"="LZX"
+
+[HKEY_CLASSES_ROOT\*\shell\Compact\shell\5]
+"MUIVerb"="Uncompresses"
+
+[HKEY_CLASSES_ROOT\*\shell\Compact\shell\1\Command]
+@="cmd.exe /c \"compact /c /exe:xpress4k \"%1\" & pause\""
+
+[HKEY_CLASSES_ROOT\*\shell\Compact\shell\2\Command]
+@="cmd.exe /c \"compact /c /exe:xpress8k \"%1\" & pause\""
+
+[HKEY_CLASSES_ROOT\*\shell\Compact\shell\3\Command]
+@="cmd.exe /c \"compact /c /exe:xpress16k \"%1\" & pause\""
+
+[HKEY_CLASSES_ROOT\*\shell\Compact\shell\4\Command]
+@="cmd.exe /c \"compact /c /exe:lzx \"%1\" & pause\""
+
+[HKEY_CLASSES_ROOT\*\shell\Compact\shell\5\Command]
+@="cmd.exe /c \"compact /u /exe \"%1\" & pause\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\Compact]
+"SubCommands"=""
+"Position"="Middle"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Compact\shell]
+
+[HKEY_CLASSES_ROOT\Directory\shell\Compact\shell\1]
+"MUIVerb"="XPRESS4K"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Compact\shell\2]
+"MUIVerb"="XPRESS8K"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Compact\shell\3]
+"MUIVerb"="XPRESS16K"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Compact\shell\4]
+"MUIVerb"="LZX"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Compact\shell\5]
+"MUIVerb"="Uncompresses"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Compact\shell\1\Command]
+@="cmd.exe /c \"compact /c /exe:xpress4k /s:\"%1\" & pause\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\Compact\shell\2\Command]
+@="cmd.exe /c \"compact /c /exe:xpress8k /s:\"%1\" & pause\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\Compact\shell\3\Command]
+@="cmd.exe /c \"compact /c /exe:xpress16k /s:\"%1\" & pause\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\Compact\shell\4\Command]
+@="cmd.exe /c \"compact /c /exe:lzx /s:\"%1\" & pause\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\Compact\shell\5\Command]
+@="cmd.exe /c \"compact /u /exe /s:\"%1\" & pause\""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Compact]
+"SubCommands"=""
+"Position"="Middle"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Compact\shell]
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Compact\shell\1]
+"MUIVerb"="XPRESS4K"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Compact\shell\2]
+"MUIVerb"="XPRESS8K"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Compact\shell\3]
+"MUIVerb"="XPRESS16K"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Compact\shell\4]
+"MUIVerb"="LZX"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Compact\shell\5]
+"MUIVerb"="Uncompresses"
+
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Compact\shell\1\Command]
+@="cmd.exe /c \"compact /c /exe:xpress4k /s:\"%V\" & pause\""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Compact\shell\2\Command]
+@="cmd.exe /c \"compact /c /exe:xpress8k /s:\"%V\" & pause\""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Compact\shell\3\Command]
+@="cmd.exe /c \"compact /c /exe:xpress16k /s:\"%V\" & pause\""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Compact\shell\4\Command]
+@="cmd.exe /c \"compact /c /exe:lzx /s:\"%V\" & pause\""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Compact\shell\5\Command]
+@="cmd.exe /c \"compact /u /exe /s:\"%V\" & pause\""
+
